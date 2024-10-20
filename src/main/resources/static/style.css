@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 60px;
+}
+
+h2 {
+    text-align: center;
+    color: green;
+    font: bold;
+}
+
+table {
+    width: 70%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.table-class thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table-class th, .table-class td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+
+.table-class tr:hover {
+    background-color: #ddd;
+}
+
+.table-class th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table-class td {
+    color: #333;
+}
+
+
+.page-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.page-btn:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+.page-btn:hover:not(:disabled) {
+    background-color: chartreuse;
+}
+
+.view-button {
+    text-align: center;
+    margin: 20px 0;
+}
